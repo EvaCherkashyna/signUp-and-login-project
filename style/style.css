@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(223, 223, 223);
+}
+h1 {
+  text-align: center;
+}
+.container-sign-in {
+  width: 35vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+p {
+  text-align: center;
+}
+.img-container {
+  text-align: center;
+}
+.container-sign-up {
+  width: 35vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sign-container {
+  padding: 0;
+  margin: 15vh auto;
+  width: 35vw;
+  height: 60vh;
+  background-color: #fff;
+}
+.customer-container {
+  padding: 0;
+  margin: 15vh auto;
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.a-sign-up-now,
+.a-sign-in-now {
+  color: #4bbf73;
+  font-weight: 500;
+  text-decoration: none;
+}
+.a-sign-up-now,
+.a-sign-in-now:hover {
+  color: #1b723a;
+}
+.sign-out {
+  width: 25vw;
+}
+.container-label {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.warningPassword,
+.warningEmail,
+.warningName,
+.warningLastName,
+.warningEmailPassword {
+  min-width: 200px;
+  color: red;
+  font-size: 12px;
+  border-radius: 5px;
+  padding-left: 10px;
+  display: none;
+  margin-bottom: 2px;
+}
+.warningAboutBlankField {
+  background-color: rgb(240, 95, 95);
+  min-width: 200px;
+  padding-left: 10px;
+  display: none;
+  color: white;
+  margin-bottom: 2px;
+}
+.img-icon {
+  width: 20vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+.p-customer-job {
+  font-size: 20px;
+}
