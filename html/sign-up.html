@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+</head>
+
+<body style="background-color: white">
+    <div class="sign-container">
+        <h1>Please sign up</h1>
+        <div class="container-sign-up">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control firstname" id="floatingInputName" placeholder="First Name" />
+                <label for="floatingInputName">First Name</label>
+                <span class="warningName"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control lastname" id="floatingInputLast" placeholder="Last Name" />
+                <label for="floatingInputLast">Last Name</label>
+                <span class="warningLastName" for="bt"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control email" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Email address</label>
+                <span class="warningEmail" for="bt"></span>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control password" id="floatingPassword" placeholder="Password" />
+                <label for="floatingPassword">Password</label>
+                <span class="warningPassword" for="bt"></span>
+            </div>
+
+            <label class="warningAboutBlankField" for="bt">заполните все поля!</label>
+
+            <button type="button" class="btn btn-success sign-up" id="bt">
+                Sign up
+            </button>
+        </div>
+        <a class="a-sign-in-now" href="../html/sign-in.html">Sign in now</a>
+    </div>
+
+    <script src="../js/sign-up.js" type="module"></script>
+</body>
+
+</html>
