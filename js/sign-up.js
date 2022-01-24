@@ -15,7 +15,7 @@ let password = document.querySelector(".password");
 let RegExpForGmail = /^[a-zA-Z][\w.]+@gmail.com$/;
 let RegExpForUkrNet = /^[a-zA-Z][\w.]+@ukr.net$/;
 let RegExpForName = /^[A-Z][a-z]+$/;
-let RegExpForPassword = /^\w.{8,}$/;
+let RegExpForPassword = /^\w.{7,}$/;
 
 //--------------all addEventListeners
 firstname.addEventListener("change", ChangeName);
@@ -90,3 +90,4 @@ function ChangeLastName() {
         warningLastName.style.display = "none";
       }
 }
+
