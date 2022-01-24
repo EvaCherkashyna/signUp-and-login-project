@@ -20,7 +20,7 @@ The application interacts with Local Storage. That is, after registration, your 
 
  I did the same with email. If you write any email that doesn't end with `@gmail.com` or `@ukr.net`, the program will give you an error. I did it with regular expressions.
  
- ![app-about](./readme-for/giphy.gif)
+ ![app-about](./readme-for/gif3.gif)
 
 
   After registration, you must click on the button below "Sign in now" and enter your account.
